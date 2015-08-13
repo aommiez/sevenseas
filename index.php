@@ -26,7 +26,7 @@
       ?>
       <?php 
         $_page = @$_GET['page']? $_GET['page']: 'home.php';
-        include $_page;
+        include $_page.".php";
       ?>
       <?php 
         include 'foot.php';

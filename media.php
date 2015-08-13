@@ -1,11 +1,6 @@
 <style type="text/css">
-	.container{
-		background-color: #3a3935;
-		background-size:100%;
-		padding: 100px 20px;
-	}
 	.media {
-		width: 940px;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.media p{
@@ -14,12 +9,15 @@
 		text-transform: uppercase;
 		margin: 5px 0; 
 	}
-
+	.mediaBG {
+		background-color: #3a3935;
+		background-size:100%;
+		margin-bottom: -4px;
+	}
 </style>
 
-<div class="container">
+<div class="container mediaBG">
 	<div class="media">
-		<p>media</p>
-		<iframe width="940" height="529" src="https://www.youtube.com/embed/tsBFQBom864?showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen=""></iframe>
+		<iframe width="100%" height="529" src="https://www.youtube.com/embed/tsBFQBom864?showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen=""></iframe>
 	</div><!--media-->
 </div>

@@ -48,7 +48,7 @@
 	}
 </style>
 <meta charset="UTF-8">
-<div class="content news">
+<div class="container content news">
 	<div class="head-news">NEWS & ATTIVITIES</div>
 	<div class="news-detail">
 		<div class="img-news">
