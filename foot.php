@@ -10,6 +10,7 @@
 	.footMap {
 		height: 274px;
 		width: 1170px;
+		margin-left: -15px;
 	}
 	.socialLogo {
 		text-align: center;
@@ -41,7 +42,30 @@
 		color: black;
 		font-size: 20px;
 	}
-
+	#googleMap {
+		
+	}
+	#sendForm {
+		position: absolute;
+	    top: 24px;
+	    right: 140px;
+	    height: 220px;
+	    width: 250px;
+	    background-color: rgba(255, 255, 255, 0.8);
+	    color: #0E3651;
+	    font-weight: bolder;
+	    padding: 16px;
+	}
+	.divMap {
+		position: relative;
+		height: 274px;
+		width: 1170px;
+		top: 0px;
+		left: 0px;
+	}
+	#sendForm input {
+		margin-bottom: 10px;
+	}
 </style>
 <div class="footSocial container">
 	<div class="socialLogo">
@@ -63,9 +87,20 @@
 		Call Center : 083 740 7776
 	</div>
 </div>
-<div id="googleMap" class="footMap container">
+<div class="divMap container">
+	<div id="googleMap" class="footMap"></div>
+	<div id="sendForm">
+		<p>Send us a message</p>
+		<form>
+			<input type="text" name="name" placeholder="Name" class="form-control">
+			<input type="email" name="email" placeholder="Email" class="form-control">
+			<input type="text" name="message" placeholder="Message" class="form-control">
+			<button class="btn btn-success">Summit</button>
+		</form>
+	</div>
 </div>
-<div class="container" style="    height: 30px;
+
+<div class="container" style="    height: 40px;
     background-color: #0E3651;">
 </div>
 <script src="http://maps.googleapis.com/maps/api/js"></script>
@@ -89,5 +124,4 @@
 		});
     }
     google.maps.event.addDomListener(window, 'load', initialize);
-
 </script>
