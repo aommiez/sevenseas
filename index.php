@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +23,8 @@
         include 'top.php';
       ?>
       <?php 
-        include 'contact.php';
+        $_page = @$_GET['page']? $_GET['page']: 'home.php';
+        include $_page;
       ?>
       <?php 
         include 'foot.php';

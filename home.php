@@ -1,0 +1,1 @@
+<div class="container"><img src="images/slide/1.jpg" width="100%"></div>
