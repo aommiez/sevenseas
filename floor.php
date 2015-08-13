@@ -8,38 +8,37 @@ $acOpen = isset($_GET['ac'])? $_GET['ac']: 'master';
 		<div class="space20"></div>	
 		<div id="cssmenu">
 			<ul>
-				<li class="<?php if($acOpen == 'master') echo 'hilight';?>"><a href="?page=floor.php&show=master">Master Plan</a></li>
-				<li class="has-sub <?php if($acOpen=='ab') echo 'open';?>"><a href="?page=floor.php&show=ab">Building AB</a>
+				<li class="<?php if($acOpen == 'master') echo 'hilight';?>"><a href="?page=floor&show=master">Master Plan</a></li>
+				<li class="has-sub <?php if($acOpen=='ab') echo 'open';?>"><a href="?page=floor&show=ab">Building AB</a>
 					<ul style="<?php if($acOpen=='ab') echo 'display: block;';?>">
-						<li class=""><a href="?page=floor.php&show=1&amp;ac=ab">1st Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=2&amp;ac=ab">2nd Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=3&amp;ac=ab">3rd Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=4&amp;ac=ab">4th Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=5&amp;ac=ab">5th Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=6&amp;ac=ab">6th Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=7&amp;ac=ab">7th Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=8&amp;ac=ab">8th Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=1&amp;ac=ab">1st Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=2&amp;ac=ab">2nd Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=3&amp;ac=ab">3rd Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=4&amp;ac=ab">4th Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=5&amp;ac=ab">5th Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=6&amp;ac=ab">6th Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=7&amp;ac=ab">7th Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=8&amp;ac=ab">8th Floor Plan</a></li>
 					</ul>
 				</li>
 
 				<li class="has-sub <?php if($acOpen=='cd') echo 'open';?>"><a class="fc-green" href="?page=floor.php&show=cd">Building CD</a>
 					<ul style="<?php if($acOpen=='cd') echo 'display: block;';?>">
-						<li class=""><a href="?page=floor.php&show=1&amp;ac=cd">1st Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=2&amp;ac=cd">2nd Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=3&amp;ac=cd">3rd Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=4&amp;ac=cd">4th Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=5&amp;ac=cd">5th Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=6&amp;ac=cd">6th Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=7&amp;ac=cd">7th Floor Plan</a></li>
-						<li class=""><a href="?page=floor.php&show=8&amp;ac=cd">8th Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=1&amp;ac=cd">1st Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=2&amp;ac=cd">2nd Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=3&amp;ac=cd">3rd Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=4&amp;ac=cd">4th Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=5&amp;ac=cd">5th Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=6&amp;ac=cd">6th Floor Plan</a></li>
+						<li class=""><a href="?page=floor&show=7&amp;ac=cd">7th Floor Plan</a></li>
 					</ul>
 				</li>
 
 				<li class="has-sub <?php if($acOpen=='un') echo 'open';?>"><a href="?page=floor.php&show=typea">Type of  Units</a>
 					<ul style="<?php if($acOpen=='un') echo 'display: block;';?>">
-						<li class=""><a href="?page=floor.php&show=typea1&amp;ac=un">Type A</a></li>
-						<li class=""><a href="?page=floor.php&show=typeb&amp;ac=un">Type B</a></li>
-						<li class=""><a href="?page=floor.php&show=typec&amp;ac=un">Type C</a></li>
+						<li class=""><a href="?page=floor&show=typea1&amp;ac=un">Type A</a></li>
+						<li class=""><a href="?page=floor&show=typeb&amp;ac=un">Type B</a></li>
+						<li class=""><a href="?page=floor&show=typec&amp;ac=un">Type C</a></li>
 					</ul>
 				</li>
 			</ul>

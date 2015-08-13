@@ -6,9 +6,9 @@
 		<div class="space40"></div>
 		<div class="row text-center">
 			<div class="col-xs-4">
-				<div class="fl "><a href="?page=exterior.php"><img class="hoverImg" src="images/gallery/exterior.png" width="300" alt=""></a></div>	
+				<div class="fl "><a href="?page=exterior"><img class="hoverImg" src="images/gallery/exterior.png" width="300" alt=""></a></div>	
 				<div class="space20"></div>	
-				<div class="fl sw300 align-tc fc-green tp-font fs24"><a class="fc-green" href="http://www.sevenseascondophuket.com/exterior.php">EXTERIOR</a></div>	
+				<div class="fl sw300 align-tc fc-green tp-font fs24"><a class="fc-green" href="?page=exterior">EXTERIOR</a></div>	
 				<div class="space20"></div>
 				<div class="fl sw300  fc-white  fs12 detail-left">
 					<div class="space7"></div>
@@ -28,9 +28,9 @@
 			</div>
 
 			<div class="col-xs-4">
-				<div class="fl "><a href="?page=facility.php"><img src="images/gallery/facility.png" width="300" alt=""></a></div>	
+				<div class="fl "><a href="?page=facility"><img src="images/gallery/facility.png" width="300" alt=""></a></div>	
 				<div class="space20"></div>	
-				<div class="fl sw300 align-tc fc-green tp-font fs24"><a class="fc-green" href="http://www.sevenseascondophuket.com/facility.php">FACILITY</a></div>	
+				<div class="fl sw300 align-tc fc-green tp-font fs24"><a class="fc-green" href="?page=facility">FACILITY</a></div>	
 				<div class="space20"></div>
 				<div class="fl sw300  fc-white  fs12 detail-left">
 					<div class="space7"></div>
@@ -55,12 +55,12 @@
 
 			<div class="col-xs-4">
 				<div class="fl ">
-					<a class="fc-green" href="?page=interior.php">
+					<a class="fc-green" href="?page=interior">
 						<img src="images/gallery/interior.png" width="300" alt="">
 					</a>
 				</div>	
 				<div class="space20"></div>	
-				<div class="fl sw300 align-tc fc-green tp-font fs24"><a class="fc-green" href="http://www.sevenseascondophuket.com/interior.php">INTERIOR</a></div>	
+				<div class="fl sw300 align-tc fc-green tp-font fs24"><a class="fc-green" href="?page=interior">INTERIOR</a></div>	
 				<div class="space20"></div>
 			</div>
 		</div>

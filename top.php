@@ -66,7 +66,7 @@
 			<li><a href="index.php?page=home">Home</a></li>
 			<li><a href="index.php?page=project-detail">Project Detail</a></li>
 			<li><a href="index.php?page=floor">Floor Plan</a></li>
-			<li><a href="index.php?page=home">Gallery</a></li>
+			<li><a href="index.php?page=gallery">Gallery</a></li>
 			<li><a href="index.php?page=media">Media</a></li>
 			<li><a href="index.php?page=news">News & Attivities</a></li>
 			<li><a href="index.php?page=contact">Contact</a></li>
