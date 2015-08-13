@@ -58,14 +58,7 @@
 		<img src="images/logo.png">
 	</div>
 	<div id="topMenu">
-		<ul>
-			<li><a href="#">NEWSAGENT LOGIN & REGISTRATION</a></li>
-			<li><a href="#">TH </a></li>
-			<li><a href="#">EN </a></li>
-			<li><a href="#">RUS </a></li>
-			<li><a href="#">SIGN UP </a></li>
-			<li><a href="#">LOGIN</a></li>
-		</ul>
+		
 	</div>
 </div>
 <div class="subTopMenu container">
