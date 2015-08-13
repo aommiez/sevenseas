@@ -10,7 +10,6 @@
 	.footMap {
 		height: 274px;
 		width: 1170px;
-		margin-left: -15px;
 	}
 	.socialLogo {
 		text-align: center;
