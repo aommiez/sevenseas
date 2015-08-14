@@ -1,3 +1,26 @@
+<?php
+if($_SERVER['REQUEST_METHOD'] == "POST"){
+  if(mail("info@agent168th.com",
+    "contact from sevenseas.agent168th.com" ,
+"Name: {$_POST['name']}
+========================
+Email: {$_POST['email']}
+========================
+Message: {$_POST['message']}
+========================
+Telephone: {$_POST['tel']}
+========================"
+    )){
+    header("Refresh: 3");
+    echo "send mail success.";
+  }
+  else {
+    header("Refresh: 3");
+    echo "Can't send mail.";
+  }
+  exit();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

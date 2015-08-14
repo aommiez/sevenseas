@@ -68,8 +68,13 @@
 </style>
 <div class="footSocial container">
 	<div class="socialLogo">
-		<img src="images/fb.png" style="    padding-right: 30px;">
-		<img src="images/yt.png" style="    padding-left: 30px;">
+		<a href="https://www.facebook.com/agent168th">
+			<img src="images/fb.png" style="    padding-right: 30px;">
+		</a>
+
+		<a href="https://www.youtube.com/watch?v=AKdZUzrh0qU">
+			<img src="images/yt.png" style="    padding-left: 30px;">
+		</a>
 	</div>
 	<div class="followUsText">
 		FOLLOW US ON SOCIAL NETWORKS
@@ -81,14 +86,18 @@
 		<img src="images/telLogo.png"> &nbsp;&nbsp;
 		<img src="images/th.png">
 		<img src="images/en.png">
-		Call Center : 087 760 5555&nbsp;&nbsp;&nbsp;&nbsp;
+		<strong>
+		Call Center : 087 760 5555,
+		Email : info@agent168th.com,
+		Line : agent168
+		</strong>
 	</div>
 </div>
 <div class="divMap container">
 	<div id="googleMap" class="footMap"></div>
 	<div id="sendForm">
 		<p>Send us a message</p>
-		<form>
+		<form method="post">
 			<input type="text" name="name" placeholder="Name" class="form-control">
 			<input type="email" name="email" placeholder="Email" class="form-control">
 			<input type="text" name="message" placeholder="Message" class="form-control">
@@ -105,9 +114,9 @@
 <script>
 
     function initialize() {
-    	var myLatLng = {lat: 13.710, lng: 100.625};
+    	var myLatLng = {lat: 13.747423, lng: 100.540233};
         var mapProp = {
-            center:new google.maps.LatLng(13.71061,100.62587),
+            center:new google.maps.LatLng(13.747423,100.540233),
             zoom:14,
             mapTypeId:google.maps.MapTypeId.ROADMAP
         };
