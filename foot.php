@@ -46,7 +46,7 @@
 	}
 	#sendForm {
 		position: absolute;
-	    top: 24px;
+	    top: 0px;
 	    right: 140px;
 	    height: 220px;
 	    width: 250px;
@@ -75,7 +75,7 @@
 		FOLLOW US ON SOCIAL NETWORKS
 	</div>
 	<div class="addressText">
-		Office located at 141/308 Moo 11, Nong Prue, Banglamung, Chonbu
+		Office located at 141/308 Moo 11, Nong Prue, Banglamung, Chonburi
 	</div>
 	<div class="telText">
 		<img src="images/telLogo.png"> &nbsp;&nbsp;
@@ -94,6 +94,7 @@
 			<input type="text" name="name" placeholder="Name" class="form-control">
 			<input type="email" name="email" placeholder="Email" class="form-control">
 			<input type="text" name="message" placeholder="Message" class="form-control">
+			<input type="number" name="tel" placeholder="Tel." class="form-control">
 			<button class="btn btn-success">Summit</button>
 		</form>
 	</div>
