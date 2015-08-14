@@ -29,6 +29,8 @@
 
     <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+    <script src="js/jssor.js"></script>
+    <script src="js/jssor.slider.js"></script>
     
   </head>
   <body>

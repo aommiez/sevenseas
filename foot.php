@@ -46,9 +46,9 @@
 	}
 	#sendForm {
 		position: absolute;
-	    top: 0px;
+	    top: 5px;
 	    right: 140px;
-	    height: 220px;
+	    height: 264px;
 	    width: 250px;
 	    background-color: rgba(255, 255, 255, 0.8);
 	    color: #0E3651;
