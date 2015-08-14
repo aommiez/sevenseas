@@ -38,7 +38,7 @@
         include 'top.php';
       ?>
       <?php 
-        $_page = @$_GET['page']? $_GET['page'] : 'home.php';
+        $_page = @$_GET['page']? $_GET['page'] : 'home';
         include $_page.".php";
       ?>
       <?php 
