@@ -1,6 +1,6 @@
 <style type="text/css">
 	.bgTop {
-		background-image: url('images/bg_top.png');
+		background-image: url('images/bg_top2jpg.jpg');
 		height: 186px;
 	}
 
@@ -33,24 +33,28 @@
     	color : #3D3D3D;
 	}
 	.subTopMenu {
-		background-color: #00B6AD;
+		background-color: #0E3651;
 		height: 70px;
 		line-height: 70px;
 		text-align: center;
 	}
 	.subTopMenu ul li {
- 		display: inline-block;
-    	vertical-align: middle;
-    	width: 152px;
-    	font-size: 18px;
-    	font-weight: bolder;
-    	color: #3D3D3D;
+	    display: inline-block;
+	    vertical-align: middle;
+	    font-size: 18px;
+	    font-weight: bolder;
+	    color: #3D3D3D;
+	    padding: 0 16px;
 	}
 	.subTopMenu ul li a { 
     	display: block;
     	text-decoration: none !important;
-    	color: #3D3D3D;
+		color: whitesmoke;
 	}
+	.subTopMenu ul li a.active { 
+		color: #00B6AD;
+	}
+	
 
 </style>
 <div class="bgTop container">
@@ -63,12 +67,12 @@
 </div>
 <div class="subTopMenu container">
 	<ul>
-			<li><a href="index.php?page=home">Home</a></li>
-			<li><a href="index.php?page=project-detail">Project Detail</a></li>
-			<li><a href="index.php?page=floor">Floor Plan</a></li>
-			<li><a href="index.php?page=gallery">Gallery</a></li>
-			<li><a href="index.php?page=media">Media</a></li>
-			<li><a href="index.php?page=news">News & Attivities</a></li>
-			<li><a href="index.php?page=contact">Contact</a></li>
+			<li><a <?php if(@$_GET['page'] == "home") echo 'class="active"';?> href="index.php?page=home">Home</a></li>
+			<li><a <?php if(@$_GET['page'] == "project-detail") echo 'class="active"';?> href="index.php?page=project-detail">Project Detail</a></li>
+			<li><a <?php if(@$_GET['page'] == "floor") echo 'class="active"';?> href="index.php?page=floor">Floor Plan</a></li>
+			<li><a <?php if(@$_GET['page'] == "gallery") echo 'class="active"';?> href="index.php?page=gallery">Gallery</a></li>
+			<li><a <?php if(@$_GET['page'] == "media") echo 'class="active"';?> href="index.php?page=media">Media</a></li>
+			<li><a <?php if(@$_GET['page'] == "news") echo 'class="active"';?> href="index.php?page=news">News & Activities</a></li>
+			<li><a <?php if(@$_GET['page'] == "contact") echo 'class="active"';?> href="index.php?page=contact">Contact</a></li>
 		</ul>
 </div>

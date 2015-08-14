@@ -49,7 +49,7 @@
 </style>
 <meta charset="UTF-8">
 <div class="container content news">
-	<div class="head-news">NEWS & ATTIVITIES</div>
+	<div class="head-news">NEWS & ACTIVITIES</div>
 	<div class="news-detail">
 		<div class="img-news">
 			<img src="images/detail-news.jpg" alt="images">

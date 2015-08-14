@@ -4,12 +4,12 @@
 
 	}
 	.footSocial {
-		background-image: url('images/foot_bg_social.png');
+		background-image: url('images/foot_bg_social001.jpg');
 		height: 296px;
 	}
 	.footMap {
 		height: 274px;
-		width: 1170px;
+		width: 100%;
 	}
 	.socialLogo {
 		text-align: center;
@@ -58,7 +58,6 @@
 	.divMap {
 		position: relative;
 		height: 274px;
-		width: 1170px;
 		top: 0px;
 		left: 0px;
 	}
@@ -80,7 +79,7 @@
 		FOLLOW US ON SOCIAL NETWORKS
 	</div>
 	<div class="addressText">
-		Office located at Ratchadamri Road, Pahtumwan, Bangkok 10330
+		Office located at Central world, Ratchadamri Road, Pahtumwan, Bangkok 10330
 	</div>
 	<div class="telText">
 		<img src="images/telLogo.png"> &nbsp;&nbsp;

@@ -15,7 +15,7 @@
 	}
 	.footMapContact {
 		height: 470px;
-		width: 1170px;
+		width: 100%;
 	}
 	.text3 {
 		color: #ffffff;
@@ -27,22 +27,26 @@
 		background-color: #3a3935;
 	}
 </style>
-<div class="contact container contactBG">
-<div class="text3">
+<div class="contact container contactBG" style="padding: 20px 0 0 0;">
+	<div class="text3">
 		
-			Sole agent by
-	
+		Sole agent by
+
+	</div>
+
+	<div class="text-center">
+		<a href="http://agent168th.com/"><img src="images/logo_agent.jpg" alt="Agent168" height="80"></a>
 	</div>
 	<div class="text1">
 		Agent168 Co., Ltd.
 	</div>
 	<div class="text2">
 		<p>
-			office located at Ratchadamri Road, Pahtumwan, Bangkok 10330<br>
+			Office located at Central world, Ratchadamri Road, Pahtumwan, Bangkok 10330<br>
 			Descriptions and pictures that appear in this document is subject to change without prior notice
 		</p>
 	</div>
-	<div>
+	<div style="margin-top: 40px;">
 		<div id="googleMapContact" class="footMapContact"></div>
 	</div>
 </div>
@@ -50,9 +54,9 @@
 <script>
 
     function initialize() {
-    	var myLatLng = {lat: 13.710, lng: 100.625};
+    	var myLatLng = {lat: 13.747423, lng: 100.540233};
         var mapProp = {
-            center:new google.maps.LatLng(13.71061,100.62587),
+            center:new google.maps.LatLng(13.747423,100.540233),
             zoom:14,
             mapTypeId:google.maps.MapTypeId.ROADMAP
         };

@@ -22,7 +22,7 @@
 					<a class="fancybox" href="images/gallery/fac/fac03.jpg" data-fancybox-group="gallery" title=""><img src="images/gallery/fac/fac03.jpg" width="300" height="100"></a>
 				</div>	
 				<div class="fl sw300 ml20">
-					<a class="fancybox" href="images/galleryf/fac/fac04.jpg" data-fancybox-group="gallery" title=""><img src="images/gallery/fac/fac04.jpg" width="300" height="100"></a>
+					<a class="fancybox" href="images/gallery/fac/fac04.jpg" data-fancybox-group="gallery" title=""><img src="images/gallery/fac/fac04.jpg" width="300" height="100"></a>
 				</div>	
 
 				<div class="space30"></div>	

@@ -116,6 +116,7 @@
         </div>
 	<div class="logo-group container">
 		<div class="space20"></div>	
+        <span class="mr60"><a href="http://agent168th.com/"><img src="images/logo_agent.jpg" alt="Agent168" height="80"></a></span>
 		<span class="mr60"><a href="http://universal-thailand.com/"><img src="images/logo-group-up.png" alt="Phuket Property" height="80"></a></span>
 		<span class="mr60"><img src="images/logo-group-ug.png" alt="Phuket Property" height="80"></span>
 		<span class="mr60"><a href="http://www.porchland.com/domains/porchland.com/public_html/index.php/?lang=en"><img src="images/logo-group-pl.png" alt="Phuket Property" height="80"></a></span>
