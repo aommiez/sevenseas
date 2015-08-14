@@ -75,15 +75,13 @@
 		FOLLOW US ON SOCIAL NETWORKS
 	</div>
 	<div class="addressText">
-		Office located at 141/308 Moo 11, Nong Prue, Banglamung, Chonburi
+		Office located at Ratchadamri Road, Pahtumwan, Bangkok 10330
 	</div>
 	<div class="telText">
 		<img src="images/telLogo.png"> &nbsp;&nbsp;
 		<img src="images/th.png">
 		<img src="images/en.png">
-		Call Center : 083 740 7774-5&nbsp;&nbsp;&nbsp;&nbsp;
-		<img src="images/rus.png">
-		Call Center : 083 740 7776
+		Call Center : 087 760 5555&nbsp;&nbsp;&nbsp;&nbsp;
 	</div>
 </div>
 <div class="divMap container">

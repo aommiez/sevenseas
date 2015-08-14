@@ -38,7 +38,7 @@
 	</div>
 	<div class="text2">
 		<p>
-			office located at 141/308 Moo 11, Nong Prue, Banglamung. Chonburi on April 4, 2014<br>
+			office located at Ratchadamri Road, Pahtumwan, Bangkok 10330<br>
 			Descriptions and pictures that appear in this document is subject to change without prior notice
 		</p>
 	</div>
